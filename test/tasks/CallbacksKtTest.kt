@@ -6,7 +6,7 @@ import contributors.testRequestData
 import org.junit.Assert
 import org.junit.Test
 
-class Request3CallbacksKtTest {
+class CallbacksKtTest {
     @Test
     fun testDataIsLoaded() {
         loadContributorsCallbacks(MockGithubService, testRequestData) {

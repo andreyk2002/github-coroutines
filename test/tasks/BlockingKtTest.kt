@@ -6,7 +6,7 @@ import contributors.testRequestData
 import org.junit.Assert
 import org.junit.Test
 
-class Request1BlockingKtTest {
+class BlockingKtTest {
     @Test
     fun testAggregation() {
         val users = loadContributorsBlocking(MockGithubService, testRequestData)
